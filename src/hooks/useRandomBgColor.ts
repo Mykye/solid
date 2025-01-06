@@ -5,7 +5,6 @@ const getRandomRGB = () => {
   return `rgb(${randomValue()}, ${randomValue()}, ${randomValue()})`;
 };
 
-
 const useRandomBgColor = () => {
   const [bgColor, setBgColor] = useState('rgb(255,255,255)'); // Initial background color
 
@@ -14,6 +13,6 @@ const useRandomBgColor = () => {
   };
 
   return { handlePress, bgColor };
-}
+};
 
 export default useRandomBgColor;

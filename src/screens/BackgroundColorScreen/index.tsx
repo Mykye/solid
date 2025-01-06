@@ -8,7 +8,6 @@ import {
 import { BACKGROUND_COLOR_SCREEN_TEXT } from '../../constants/strings';
 import useRandomBgColor from '../../hooks/useRandomBgColor';
 
-
 const BackgroundColorScreen = () => {
   const { bgColor, handlePress: handleScreenPress} = useRandomBgColor();
 
@@ -35,7 +34,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
-  }
+  },
 });
 
 export default BackgroundColorScreen;
